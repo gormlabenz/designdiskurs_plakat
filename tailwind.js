@@ -3,10 +3,15 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Bodoni Moda", "Sans-serif"],
+        serif: ["Montserrat", "Sans-serif"],
+      },
+    },
   },
   variants: {},
   plugins: [],
-}
+};
