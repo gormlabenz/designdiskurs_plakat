@@ -30,7 +30,7 @@
         class="w-8 h-8 rounded-full border-gray-700 shadow-md cursor-pointer"
       ></div>
     </div>
-    <div class="bg-transparent bottom-0 absolute flex flex-col max-w-sm mb-8">
+    <div class="bg-transparent bottom-0 absolute flex flex-col max-w-md mb-8">
       <input
         class="bg-transparent text-6xl focus:outline-none"
         type="text"
@@ -40,7 +40,7 @@
         class="bg-transparent font-serif focus:outline-none"
         name=""
         id=""
-        cols="20"
+        cols="30"
         rows="3"
       >
   Erstelle dein eigenes Plakat! Suche dir passende Farben aus, ersetze den Text, skaliere das Fenster zur richtigen Größe und drucke es aus!</textarea
